@@ -62,6 +62,8 @@ The project demonstrates how the combined rehearsal and knowledge distillation a
 2. **Rehearsal + KD**: Shows gradual decline but maintains reasonable performance (~55-70%)
 3. **Fine-tuning**: Shows catastrophic forgetting, with accuracy dropping to near zero
 
+![image](https://github.com/user-attachments/assets/60590462-22b6-41e0-a6b7-4a9343abcf10)
+
 ## How to Run
 
 1. Install dependencies:
