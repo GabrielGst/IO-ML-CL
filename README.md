@@ -1,12 +1,11 @@
-# IO-ML-CL
-Institute of Optics' module on continuous learning for Machine Learning algorithms.
-
 
 # Class Incremental Learning with Rehearsal and Knowledge Distillation
 
 ## Project Overview
 
-This project implements class-incremental learning strategies for image classification using the GTSRB (German Traffic Sign Recognition Benchmark) dataset. The core challenge addressed is "catastrophic forgetting" - the tendency of neural networks to forget previously learned classes when training on new classes. 
+The goal of this project is to develop a solution for recognizing images of road signs using class-incremental learning techniques. This task is focused on addressing the problem of "catastrophic forgetting," which occurs when new categories are introduced sequentially into the classification model, causing the system to forget previously learned categories when training on new classes.
+
+This project uses a classical dataset, which is the German Traffic Sign Recognition Benchmark (GTSRB), that is widely available in repositories like torchvision. The images in the dataset are relatively small in size (32x32 pixels), and the number of samples is also limited, making it feasible to train the model on a good CPU, although using a GPU would speed up the training process.
 
 The project compares three different learning strategies:
 1. **Fine-tuning** - The simplest approach that leads to catastrophic forgetting
